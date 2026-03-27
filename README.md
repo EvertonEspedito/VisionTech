@@ -5,7 +5,7 @@ Site para empresa fictícia de um trabalho da disciplina de Projeto de Desenvolv
 # Organização das Pastas do Projeto
 
 ```
-    minha-landing-page/
+    VisionTech/
     ├── assets/
     │   ├── css/
     │   │   └── style.css       # Seus estilos customizados (além do framework)
