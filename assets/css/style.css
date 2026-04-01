@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #030412;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto; 
+  padding: 0 20px;
+}
+
+/* cabeçaho */
+header {
+  background: transparent;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-image: 
+    url('../images/bg2.png'), 
+    url('../images/bg.png');
+
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+.hero-content {
+  color: white;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-family:plus jakarta;
+  font-size: 32px;
+  line-height: 1.4;
+}
+
+.hero-content span {
+  color: #198CFF;
+}
+
+/* Botões */
+.hero-actions {
+  margin-top: 20px;
+}
+.btn-cta{
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: solid white;
+   
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-secondary {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+}
+
+/*seção equipe*/
+.team {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #020617, #030b1a);
+  text-align: center;
+  color: white;
+}
+.team .container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+
+.section-title {
+  margin-bottom: 50px;
+  font-size: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-content: center; 
+}
+
+.team-card {
+  background: #0b1a3a;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center; 
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+}
+
+.team-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.team-card h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.team-card p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #050816;
+  color: #fff;
+}
+
+/* Seção */
+.metodologias {
+  padding: 80px 10%;
+  display: flex;
+  justify-content: center; 
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.met-left {
+  max-width: 300px;
+}
+
+.met-left h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.met-left p {
+  font-size: 14px;
+  color: #b0b0b0;
+  margin-bottom: 20px;
+}
+
+.met-left button {
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.met-left button:hover {
+  opacity: 0.8;
+}
+
+/* Linha azul */
+.divider {
+  width: 3px;
+  height: 200px;
+  background: #00c6ff;
+}
+
+/* Card */
+.met-card {
+  background: linear-gradient(145deg, rgba(20, 30, 60, 0.7), rgba(10, 15, 30, 0.9));
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0, 150, 255, 0.2);
+}
+
+/* Itens */
+.met-item {
+  margin-bottom: 25px;
+}
+
+.met-item h3 {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.met-item p {
+  font-size: 14px;
+  color: #c0c0c0;
+  line-height: 1.5;
+}
+
+
+.footer {
+  background: #050816;
+  padding: 60px 10% 20px;
+  border-top: 1px solid rgba(0, 150, 255, 0.2);
+}
+
+/* Container principal */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Marca */
+.footer-brand h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #aaa;
+  max-width: 250px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #00c6ff;
+}
+
+.footer-contact p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 15px;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  color: #777;
+}
