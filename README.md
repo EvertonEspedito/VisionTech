@@ -19,7 +19,6 @@ A proposta é transmitir uma identidade moderna, tecnológica e acessível.
 
 O design segue um estilo:
 
-- 🌙 Tema escuro (Dark Mode)
 - 🔵 Detalhes em azul (tecnologia/inovação)
 - ✨ Interface moderna e responsiva
 
