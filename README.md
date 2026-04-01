@@ -1,19 +1,37 @@
-# VisionTech
-Site para empresa fictícia de um trabalho da disciplina de Projeto de Desenvolvimento de Software.
+# 🚀 VisionTech
 
+Landing page desenvolvida para apresentar a empresa **VisionTech**, focada em soluções inteligentes utilizando **visão computacional aplicada à educação**.
 
-# Organização das Pastas do Projeto
+---
 
-```
-    VisionTech/
-    ├── assets/
-    │   ├── css/
-    │   │   └── style.css       # Seus estilos customizados (além do framework)
-    │   ├── js/
-    │   │   ├── main.js         # Script principal
-    │   │   └── components/     # Scripts modulares (ex: menu.js, scroll.js)
-    │   ├── img/                # Logos, ícones e fotos
-    │   └── fonts/              # Arquivos de fonte locais
-    ├── index.html              # Arquivo principal
-    └── favicon.ico
-```
+## 📌 Sobre o Projeto
+
+Este projeto consiste em uma página web institucional com o objetivo de apresentar:
+
+- Quem somos
+- Serviços oferecidos
+- Metodologias utilizadas
+- Equipe de desenvolvimento
+
+A proposta é transmitir uma identidade moderna, tecnológica e acessível.
+
+## 🎨 Layout
+
+O design segue um estilo:
+
+- 🌙 Tema escuro (Dark Mode)
+- 🔵 Detalhes em azul (tecnologia/inovação)
+- ✨ Interface moderna e responsiva
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+## 🖥️ Preview do Projeto
+
+![Preview da landing page](./assets/images/previw1.png)
+![Preview da landing page](./assets/images/preview2.png)
+![Preview da landing page](./assets/images/preview3.png)
+![Preview da landing page](./assets/images/preview4.png)
