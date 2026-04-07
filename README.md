@@ -30,7 +30,7 @@ O design segue um estilo:
 - CSS3
 ## 🖥️ Preview do Projeto
 
-### Link para visualizar o projeto: ![Ver Projeto](https://visiontechh.netlify.app/) 
+### Link para visualizar o projeto: [Ver Projeto](https://visiontechh.netlify.app/) 
 
 ![Preview da landing page](./assets/images/previw1.png)
 ![Preview da landing page](./assets/images/preview2.png)
